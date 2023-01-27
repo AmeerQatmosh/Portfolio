@@ -1,12 +1,65 @@
-body,h1 {font-family: "Montserrat"}
+body,h1 {font-family: "Montserrat"; color: #222;}
 
-h2,h3,h4,h5,h6 {font-family: monospace}
+h2 {font-family: monospace}
 
-.w3-row-padding img {margin-bottom: 12px}
-.area {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(44, 42, 42);
-  min-height: 100%;
+.w3-sidebar { background: #222;}
+
+.paragraph {
+  color: black;
+  font-size: large;
 }
+
+nav a {
+  width: 200px;
+  height: 25%;
+}
+nav a i, p {
+  color: white;
+}
+
+.fa {
+  padding: 14px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #af0b91;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.w3-section .p .i {
+  background: black;
+  color: white;
+}
+
+ 
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+

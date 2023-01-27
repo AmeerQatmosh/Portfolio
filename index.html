@@ -9,48 +9,47 @@
 <head>
     <link rel = "stylesheet" href="index.css">
 </head>
-<body>
+<body class="w3-white">
 
 <!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
-  <div class="area"></div>
-</nav>
-
-<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-    <i class="fa fa-remove"></i>
+<nav class="w3-sidebar w3-hide-medium w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Home</p>
   </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About me</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
-    <a href="#apply" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Why I'm apply?</a>
-
-  </div>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p >About me</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>Contact</p>
+  </a>
+  <a href="#apply" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-question-circle w3-xxlarge"></i>
+    <p>Why I'm apply?</p>
+  </a>
+  
 </nav>
 
 <!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:35%">
-
-  <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+<div class="w3-main w3-padding-large" style="margin-left: 20%">
 
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 10px" id="home">
     <h1 class="w3-jumbo"><b>Ameer Qatmosh</b></h1>
-    <p style="font-size:30px">Software Engineering Student</p>
+    <h2 style="font-size:30px">Software Engineering Student</p>
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-    <h2>About</h2>
+    <h2>About me</h2>
     <hr class="w3-opacity">
-    <p>I'm Ameer Qatmosh, I'm 21 years old, an IT student, studying the Computer Science Apprenticeship Program
+    <p class = "paragraph" >I'm Ameer Qatmosh, I'm 21 years old, an IT student, studying the Computer Science Apprenticeship Program
         spicelized in Software Engineering at An Najah National University.
     </p>
 
-    <p>
+    <p class = "paragraph" >
         I'm ambition about learning various programming languages and different technologies, I used several programming languages such as: Java, C++, C#, Python. 
         Many Frameworks such as: Angular, Bootstrap, Laravel. 
         and Web development tools: HTML, CSS, JavaScript, PHP, NodeJS.
@@ -62,47 +61,47 @@
     <hr class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Jenin, Palestine</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +972 059 4651 184</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto: ameerqsh@gmail.com">ameerqsh@gmail.com </a></p>
-      <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"></i>Linkedin: <a href="https://www.linkedin.com/in/ameer-qatmosh-0a857b1b8/">Ameer Qatmosh
+      <p class="paragraph"><i class="fa fa-map-marker fa-fw w3-xxxlarge w3-margin-right"></i> Jenin, Palestine</p>
+      <p class="paragraph"><i class="fa fa-phone fa-fw w3-xxxlarge w3-margin-right"></i> Phone: +972 059 4651 184</p>
+      <p class="paragraph"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto: ameerqsh@gmail.com">ameerqsh@gmail.com </a></p>
+      <p class="paragraph" ><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right" style="color:black;background-color:white;"></i>Linkedin: <a href="https://www.linkedin.com/in/ameer-qatmosh-0a857b1b8/">Ameer Qatmosh
       </a> </p>
     </div>
   <!-- End Contact Section -->
   </div>  
 
-  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="apply" style="margin-bottom:50px">
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="apply" style="margin-bottom:300px">
     <h2>Why I'm apply?</h2>
     <hr class="w3-opacity">
-    <p>I heard a lot about Gaza Sky Geeks activities, and I'm interested about their mission and I believe their vision, 
-        I think this training opportunity will help me to reach a new level in building my experiences, 
-        I took previously a training about React Native mobile development, and I believe that this React 
-        training will increase my level experience. and it's a chance to prove myself in my future career.
+    <p class = "paragraph" > 
+      I heard a lot about Gaza Sky Geeks activities, and I'm interested about their mission and I believe their vision, 
+      I think this training opportunity will help me to reach a new level in building my experiences, 
+      I took previously a training about React Native mobile development, and I believe that this React 
+      training will increase my level experience. and it's a chance to prove myself in my future career.
+    </p>
+
+    <p class = "paragraph" >
+      If I be accepted, think that I will technically learn about front-end development with React, 
+      starting with JavaScript Basics because React is JavaScript Library. After that learning React 
+      Concepts including Components and Props, component Life cycle, and many more. Next that ability 
+      to learn and implement Front-End and User Interface (UI).
     </p>
   <!-- End About Section -->
   </div>
 
 
   <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+  <footer class="w3-container w3-padding-64 w3-center w3-xxxlarge" style="width:100%;background-color: #222;position:absolute">
     <a class="fa fa-facebook w3-hover-opacity" href="https://www.facebook.com/people/Ameer-A-Qatmosh/100009920655956/" ></a>
     <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/ameer_qatmosh/" ></a>
     <a class="fa fa-github w3-hover-opacity" href="https://github.com/AmeerQatmosh" ></a>
     <a class="fa fa-linkedin w3-hover-opacity" href=" https://www.linkedin.com/in/ameer-qatmosh-0a857b1b8/" ></a>
   <!-- End footer -->
   </footer>
-<!-- End Page Content -->
+
 </div>
 
-<script>
-// Open and close sidebar
-function openNav() {
-  document.getElementById("mySidebar").style.width = "25%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+<!-- End Page Content -->
+
 </body>
 </html>
